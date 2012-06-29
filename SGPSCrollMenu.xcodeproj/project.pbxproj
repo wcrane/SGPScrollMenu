@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848022FB159D7CD000208A4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848022FA159D7CD000208A4E /* UIKit.framework */; };
+		848022FD159D7CD000208A4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848022FC159D7CD000208A4E /* Foundation.framework */; };
+		848022FF159D7CD000208A4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848022FE159D7CD000208A4E /* CoreGraphics.framework */; };
+		84802305159D7CD000208A4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84802303159D7CD000208A4E /* InfoPlist.strings */; };
+		84802307159D7CD000208A4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84802306159D7CD000208A4E /* main.m */; };
+		8480230B159D7CD000208A4E /* SGPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480230A159D7CD000208A4E /* SGPAppDelegate.m */; };
+		8480230E159D7CD000208A4E /* SGPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480230D159D7CD000208A4E /* SGPViewController.m */; };
+		84802311159D7CD000208A4E /* SGPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8480230F159D7CD000208A4E /* SGPViewController.xib */; };
+		8480231C159D7CF400208A4E /* SGPMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84802319159D7CF400208A4E /* SGPMenuCell.m */; };
+		8480231D159D7CF400208A4E /* SGPScrollMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480231B159D7CF400208A4E /* SGPScrollMenuView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		848022F6159D7CD000208A4E /* SGPSCrollMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGPSCrollMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848022FA159D7CD000208A4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		848022FC159D7CD000208A4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		848022FE159D7CD000208A4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84802302159D7CD000208A4E /* SGPSCrollMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SGPSCrollMenu-Info.plist"; sourceTree = "<group>"; };
+		84802304159D7CD000208A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84802306159D7CD000208A4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84802308159D7CD000208A4E /* SGPSCrollMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SGPSCrollMenu-Prefix.pch"; sourceTree = "<group>"; };
+		84802309159D7CD000208A4E /* SGPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGPAppDelegate.h; sourceTree = "<group>"; };
+		8480230A159D7CD000208A4E /* SGPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGPAppDelegate.m; sourceTree = "<group>"; };
+		8480230C159D7CD000208A4E /* SGPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGPViewController.h; sourceTree = "<group>"; };
+		8480230D159D7CD000208A4E /* SGPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGPViewController.m; sourceTree = "<group>"; };
+		84802310159D7CD000208A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SGPViewController.xib; sourceTree = "<group>"; };
+		84802318159D7CF400208A4E /* SGPMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPMenuCell.h; sourceTree = "<group>"; };
+		84802319159D7CF400208A4E /* SGPMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPMenuCell.m; sourceTree = "<group>"; };
+		8480231A159D7CF400208A4E /* SGPScrollMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPScrollMenuView.h; sourceTree = "<group>"; };
+		8480231B159D7CF400208A4E /* SGPScrollMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPScrollMenuView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848022F3159D7CD000208A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848022FB159D7CD000208A4E /* UIKit.framework in Frameworks */,
+				848022FD159D7CD000208A4E /* Foundation.framework in Frameworks */,
+				848022FF159D7CD000208A4E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848022EB159D7CD000208A4E = {
+			isa = PBXGroup;
+			children = (
+				84802300159D7CD000208A4E /* SGPSCrollMenu */,
+				848022F9159D7CD000208A4E /* Frameworks */,
+				848022F7159D7CD000208A4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848022F7159D7CD000208A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848022F6159D7CD000208A4E /* SGPSCrollMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848022F9159D7CD000208A4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848022FA159D7CD000208A4E /* UIKit.framework */,
+				848022FC159D7CD000208A4E /* Foundation.framework */,
+				848022FE159D7CD000208A4E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84802300159D7CD000208A4E /* SGPSCrollMenu */ = {
+			isa = PBXGroup;
+			children = (
+				84802317159D7CF400208A4E /* ScrollMenu */,
+				84802309159D7CD000208A4E /* SGPAppDelegate.h */,
+				8480230A159D7CD000208A4E /* SGPAppDelegate.m */,
+				8480230C159D7CD000208A4E /* SGPViewController.h */,
+				8480230D159D7CD000208A4E /* SGPViewController.m */,
+				8480230F159D7CD000208A4E /* SGPViewController.xib */,
+				84802301159D7CD000208A4E /* Supporting Files */,
+			);
+			path = SGPSCrollMenu;
+			sourceTree = "<group>";
+		};
+		84802301159D7CD000208A4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84802302159D7CD000208A4E /* SGPSCrollMenu-Info.plist */,
+				84802303159D7CD000208A4E /* InfoPlist.strings */,
+				84802306159D7CD000208A4E /* main.m */,
+				84802308159D7CD000208A4E /* SGPSCrollMenu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84802317159D7CF400208A4E /* ScrollMenu */ = {
+			isa = PBXGroup;
+			children = (
+				84802318159D7CF400208A4E /* SGPMenuCell.h */,
+				84802319159D7CF400208A4E /* SGPMenuCell.m */,
+				8480231A159D7CF400208A4E /* SGPScrollMenuView.h */,
+				8480231B159D7CF400208A4E /* SGPScrollMenuView.m */,
+			);
+			path = ScrollMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848022F5159D7CD000208A4E /* SGPSCrollMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84802314159D7CD000208A4E /* Build configuration list for PBXNativeTarget "SGPSCrollMenu" */;
+			buildPhases = (
+				848022F2159D7CD000208A4E /* Sources */,
+				848022F3159D7CD000208A4E /* Frameworks */,
+				848022F4159D7CD000208A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGPSCrollMenu;
+			productName = SGPSCrollMenu;
+			productReference = 848022F6159D7CD000208A4E /* SGPSCrollMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848022ED159D7CD000208A4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SGP;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 848022F0159D7CD000208A4E /* Build configuration list for PBXProject "SGPSCrollMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 848022EB159D7CD000208A4E;
+			productRefGroup = 848022F7159D7CD000208A4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848022F5159D7CD000208A4E /* SGPSCrollMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848022F4159D7CD000208A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84802305159D7CD000208A4E /* InfoPlist.strings in Resources */,
+				84802311159D7CD000208A4E /* SGPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848022F2159D7CD000208A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84802307159D7CD000208A4E /* main.m in Sources */,
+				8480230B159D7CD000208A4E /* SGPAppDelegate.m in Sources */,
+				8480230E159D7CD000208A4E /* SGPViewController.m in Sources */,
+				8480231C159D7CF400208A4E /* SGPMenuCell.m in Sources */,
+				8480231D159D7CF400208A4E /* SGPScrollMenuView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84802303159D7CD000208A4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84802304159D7CD000208A4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8480230F159D7CD000208A4E /* SGPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84802310159D7CD000208A4E /* en */,
+			);
+			name = SGPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84802312159D7CD000208A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84802313159D7CD000208A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84802315159D7CD000208A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SGPSCrollMenu/SGPSCrollMenu-Prefix.pch";
+				INFOPLIST_FILE = "SGPSCrollMenu/SGPSCrollMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84802316159D7CD000208A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SGPSCrollMenu/SGPSCrollMenu-Prefix.pch";
+				INFOPLIST_FILE = "SGPSCrollMenu/SGPSCrollMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848022F0159D7CD000208A4E /* Build configuration list for PBXProject "SGPSCrollMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84802312159D7CD000208A4E /* Debug */,
+				84802313159D7CD000208A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84802314159D7CD000208A4E /* Build configuration list for PBXNativeTarget "SGPSCrollMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84802315159D7CD000208A4E /* Debug */,
+				84802316159D7CD000208A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848022ED159D7CD000208A4E /* Project object */;
+}
